@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oop-4-2"
+version = "0.1.0"
+description = ""
+authors = ["sa1vador77 <uncrowned.blessed@gmail.com>"]
+readme = "README.md"
+packages = [{include = "oop_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
